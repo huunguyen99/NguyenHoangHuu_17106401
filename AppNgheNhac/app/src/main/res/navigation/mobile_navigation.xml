@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appnghenhac.ui.home.HomeFragment"
+        android:label="Tất cả bài hát"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_casi"
+        android:name="com.example.appnghenhac.ui.casi.CaSiFragment"
+        android:label="Danh sách ca sĩ"
+        tools:layout="@layout/fragment_casi" />
+
+</navigation>
